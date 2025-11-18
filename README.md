@@ -15,7 +15,11 @@ The full data dictionary is available [via the DataShare website](https://datash
 
 ## This Repository
 
-Begin by downloading all 12 files from [the DataShare page](https://doi.org/10.7488/ds/3775). 
+Begin by downloading 3 files from [the DataShare page](https://doi.org/10.7488/ds/3775).
+
+- `anonym_aamos00_dailyquestionnaire.csv`
+- `anonym_aamos00_environment.csv`
+- `anonym_aamos00_weeklyquestionnaire.csv`
 
 All the data processing and model training is conducted in `data_processing_model_training.ipynb` notebook, outputs like plots and model performance are saved in the `outputs` folder. Feature importance of models can be explored in `explore_feature_importance.ipynb` notebook.
 
@@ -38,4 +42,4 @@ The novel passive monitoring prediction model for env-sensitive patients achieve
 
 Data is licensed under the *Creative Commons Attribution 4.0 International Public License.*
 
-The starter code is licensed under the *MIT License.*
+The code is licensed under the *MIT License.*
